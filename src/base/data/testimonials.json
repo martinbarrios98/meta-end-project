@@ -1,0 +1,29 @@
+{
+    "testimonials": [
+      {
+        "id": 1,
+        "rating": 5,
+        "name": "John Doe",
+        "review": "Delicious food, cozy atmosphere, especially loved the lemon-infused dishes."
+      },
+      {
+        "id": 2,
+        "rating": 4,
+        "name": "Bob Smith",
+        "review": "Great experience at Little Lemon. Varied menu, flavorful dishes, knowledgeable staff."
+      },
+      {
+        "id": 3,
+        "rating": 3,
+        "name": "Eva Martinez",
+        "review": "Decent food with room for improvement. Overall, an okay experience."
+      },
+      {
+        "id": 4,
+        "rating": 5,
+        "name": "Charlie Davis",
+        "review": "Absolutely love Little Lemon! Fresh, flavorful, beautifully presented food. Must-try lemon desserts"
+      }
+    ]
+  }
+  

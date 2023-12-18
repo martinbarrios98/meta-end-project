@@ -1,0 +1,41 @@
+
+h1, h2, h3, h4 {
+    font-family: "Markazi Text", "sans-serif";
+}
+
+body, p, a {
+    font-family: "Karla", "sans-serif";
+    font-size: 18px;
+}
+
+.btn-primary{
+    background-color: #F4CE14;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    color: #333333;
+    font-weight: 700;
+    font-family: Karla, sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+.btn-primary:hover{
+    filter: brightness(1.1);
+}
+
+.btn-secondary{
+    background-color: #000000;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Karla, sans-serif;
+    transition: all .2s ease-in-out;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-secondary:hover{
+    filter: brightness(1.1);
+}
