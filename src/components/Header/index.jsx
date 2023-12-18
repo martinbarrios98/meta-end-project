@@ -47,11 +47,14 @@ const Header = () => {
                             { show ?  <Icon ElementIcon={IoClose} size={'30px'} color='#000000' /> : <Icon ElementIcon={FaBars} size={'30px'} color='#000000' /> }
                         </div>
                     </ul>
-                    <nav className={`
-                        flex items-start basis-[100%] h-[100vh] w-[100%] fixed top-[0] pt-[88px] left-0 transition-all duration-300 bg-white 
-                        ${show ? 'opacity-100 block' : 'opacity-0 hidden'}
-                        lg:static lg:opacity-100 lg:basis-[auto] lg:h-auto lg:w-auto lg:z-10 lg:pt-0 lg:block
-                    `} >
+                    <nav 
+                        role="menu"
+                        className={`
+                            flex items-start basis-[100%] h-[100vh] w-[100%] fixed top-[0] pt-[88px] left-0 transition-all duration-300 bg-white 
+                            ${show ? 'opacity-100 block' : 'opacity-0 hidden'}
+                            lg:static lg:opacity-100 lg:basis-[auto] lg:h-auto lg:w-auto lg:z-10 lg:pt-0 lg:block
+                        `} 
+                    >
                         <ListNav section={'header'} />
                     </nav>
                 </div>
